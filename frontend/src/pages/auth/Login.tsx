@@ -102,29 +102,7 @@ export default function Login() {
                         </Link>
                     </div>
 
-                    <div className="relative">
-                        <div className="absolute inset-0 flex items-center"><span className="w-full border-t border-border" /></div>
-                        <div className="relative flex justify-center text-xs uppercase text-muted-foreground"><span className="bg-card px-2 font-medium">Test Credentials</span></div>
-                    </div>
 
-                    <div className="grid grid-cols-2 gap-3 text-xs mt-4">
-                        <div className="rounded border border-border p-2 bg-muted/30">
-                            <span className="font-semibold text-foreground flex items-center gap-1.5 mb-1"><User className="h-3 w-3 text-primary" /> Patient</span>
-                            <span className="text-muted-foreground break-all">rahul.singh@email.com</span>
-                        </div>
-                        <div className="rounded border border-border p-2 bg-muted/30">
-                            <span className="font-semibold text-foreground flex items-center gap-1.5 mb-1"><Stethoscope className="h-3 w-3 text-primary" /> Doctor</span>
-                            <span className="text-muted-foreground break-all">dr.sharma@srn.gov.in</span>
-                        </div>
-                        <div className="rounded border border-border p-2 bg-muted/30">
-                            <span className="font-semibold text-foreground flex items-center gap-1.5 mb-1"><Building2 className="h-3 w-3 text-primary" /> Hospital</span>
-                            <span className="text-muted-foreground break-all">admin@srnhospital.gov.in</span>
-                        </div>
-                        <div className="rounded border border-border p-2 bg-muted/30">
-                            <span className="font-semibold text-foreground flex items-center gap-1.5 mb-1"><Shield className="h-3 w-3 text-primary" /> Admin</span>
-                            <span className="text-muted-foreground break-all">admin@healthease.com</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
